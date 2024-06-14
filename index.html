@@ -1,15 +1,16 @@
-<?php
-// Lee el parámetro 'api' de la URL
-$api = isset($_GET['api']) ? $_GET['api'] : '';
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de API</title>
+</head>
+<body>
+    <h1>Selección de AP1I</h1>
+    <ul>
+        <li><a href="https://0jhtp4yzrodkbe3d3zjyhqload.on.drv.tw/web/servicios/api.php">API 1</a></li>
+        <li><a href="https://0jhtp4yzrodkbe3d3zjyhqload.on.drv.tw/web/servicios/api2.php">API 2</a></li>
+    </ul>
+</body>
+</html>
 
-switch ($api) {
-    case '1':
-        require_once 'servicios/api.php';
-        break;
-    case '2':
-        require_once 'servicios/api2.php';
-        break;
-    default:
-        echo "Por favor, selecciona una API válida.";
-}
-?>
