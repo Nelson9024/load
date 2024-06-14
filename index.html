@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selección de API</title>
+    <title>Seleccionar API</title>
 </head>
 <body>
-    <h1>Selección de AP1I</h1>
-    <ul>
-        <li><a href="https://0jhtp4yzrodkbe3d3zjyhqload.on.drv.tw/web/servicios/api.php">API 1</a></li>
-        <li><a href="https://0jhtp4yzrodkbe3d3zjyhqload.on.drv.tw/web/servicios/api2.php">API 2</a></li>
-    </ul>
+    <form action="procesar.php" method="GET">
+        <label for="api">Selecciona una API:</label>
+        <select name="api" id="api">
+            <option value="1">API 1</option>
+            <option value="2">API 2</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
-
