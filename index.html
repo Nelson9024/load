@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleccionar AP1I</title>
+    <title>Redirección a procesar.php</title>
+    <script>
+        window.onload = function() {
+            window.location.href = "procesar.php";
+        };
+    </script>
 </head>
 <body>
-    <form action="procesar.php" method="GET">
-        <label for="api">Selecciona una AP1I:</label>
-        <select name="api" id="api">
-            <option value="1">API 1</option>
-            <option value="2">API 2</option>
-        </select>
-        <button type="submit">Enviar</button>
-    </form>
+    <!-- No hay contenido necesario aquí, ya que la redirección ocurrirá inmediatamente después de cargar la página -->
 </body>
 </html>
