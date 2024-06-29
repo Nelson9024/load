@@ -1,2 +1,0 @@
-Version1.txt
-archivo_descargado.txt
